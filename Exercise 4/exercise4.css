@@ -1,0 +1,14 @@
+#myStyle {
+  text-align: center;
+  border-style: solid;
+  border-color: #000000;
+  border-width: : 10px;
+  background-color: #FFFFFF;
+}
+
+p {
+   text-align: center;
+   border-style: dashed;
+   border-color: black;
+   border-width: thin;
+}
