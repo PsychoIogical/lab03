@@ -28,6 +28,32 @@ p.header{
   font-family: serif;
   font-size: 28pt;
 }
+p.topic{
+  text-align: left;
+  color: #000000;
+  font-family: sans-serif;
+  font-size: 24pt;
+}
+p.list{
+  text-align: left;
+  color: white;
+  font-family: sans-serif;
+  font-size: 18pt;
+}
+p.bio{
+  text-align: left;
+  font-family: sans-serif;
+  font-size: 20pt;
+}
+/* Lists */
+ul{
+  background-color: white;
+  opacity: .8;
+}
+ol{
+  background-color: white;
+  opacity: .8;
+}
 /* Body */
 body{
   background-image: url("images/tile.jpg");
@@ -48,23 +74,39 @@ div.middle{
   text-align: center;
 }
 /* Links */
-a{
+a.insert{
+  text-decoration: inherit;
+}
+a.insert:link{
+  color: Blue;
+}
+a.insert:visited{
+  color: Purple;
+}
+a.insert:hover{
+  color: lightblue;
+}
+a.insert:active{
+  color: white;
+}
+
+a.top{
   background-color: SandyBrown;
   display: inline-block;
   text-align: center;
   font-size: 30pt;
-  padding: 20px 35px;
+  padding: 10px 15px;
   text-decoration: none;
 }
-a:link{
+a.top:link{
   color: White;
 }
-a:visited{
+a.top:visited{
   color: White;
 }
-a:hover{
+a.top:hover{
   color: grey;
 }
-a:active{
+a.top:active{
   color: Black;
 }
