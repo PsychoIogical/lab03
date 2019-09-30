@@ -1,0 +1,70 @@
+/* Paragraph */
+p{
+  background-color: White;
+  opacity: .8;
+}
+p.left{
+  text-align: left;
+  color: #006400;
+  font-family: fantasy;
+  font-size: 20pt;
+}
+p.middle{
+  text-align: middle;
+  color: #800000;
+  font-family: monospace;
+  font-size: 34pt;
+}
+p.right{
+  text-align: right;
+  color: #FFFFFF;
+  background-color: MidnightBlue;
+  font-family: cursive;
+  font-size: 20pt;
+}
+p.header{
+  text-align: middle;
+  color: #000000;
+  font-family: serif;
+  font-size: 28pt;
+}
+/* Body */
+body{
+  background-image: url("images/tile.jpg");
+}
+div.main{
+  text-align: center;
+  border-style: dashed;
+  border-color: black;
+  border-width: 10px;
+}
+div.top{
+  text-align: center;
+  border-bottom-style: solid;
+  border-bottom-color: black;
+  border-width: 10px;
+}
+div.middle{
+  text-align: center;
+}
+/* Links */
+a{
+  background-color: SandyBrown;
+  display: inline-block;
+  text-align: center;
+  font-size: 30pt;
+  padding: 20px 35px;
+  text-decoration: none;
+}
+a:link{
+  color: White;
+}
+a:visited{
+  color: White;
+}
+a:hover{
+  color: grey;
+}
+a:active{
+  color: Black;
+}
