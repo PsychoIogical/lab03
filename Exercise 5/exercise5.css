@@ -1,0 +1,27 @@
+/* Basic classes */
+div.center{
+  text-align:center;
+}
+
+/* Links */
+/** Topic **/
+a.topic{
+  background-color: #515151;
+  display: inline-block;
+  text-align: center;
+  font-size: 24pt;
+  padding: 10px 15px;
+  text-decoration: none;
+}
+a.topic:link{
+  color: White;
+}
+a.topic:visited{
+  color: White;
+}
+a.topic:hover{
+  color: black;
+}
+a.topic:active{
+  color: #053A7E;
+}
